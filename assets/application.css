@@ -1,29 +1,603 @@
 body {
- font-family: "Inter Tight", serif;
+    font-family: "Inter Tight", serif;
+    max-width: 1920px;
 }
 
+/* Very Top Header Title */
 .what-makes-us-title {
     margin: 0 auto;
     text-align: center;
     font-size: 40px;
     padding-top: 60px;
     width: 35%;
+    font-weight: 600;
+}
+
+/* Header Center Container */
+.header-center-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Complete Container of Real Food & Premium Ingredient */
+.real-food-and-premium-ingredient-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Real Food Code */
+.real-food-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.real-food-colorful-background {
+    background-color: #DCF9CA;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.real-food-img-container {
+    padding: 0px 10px 0 0;
+}
+
+.real-food-img {
+    width: 36px;
+    height: 36px;
+}
+
+.real-food-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.real-food-text h1 {
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+.real-food-text p {
+    margin: 8px 0;
+    width: 70%;
+}
+
+/* Premium Ingredient Code */
+
+.premium-ingredient-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.premium-ingredient-colorful-background {
+    background-color: #F8F0D6;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium-ingredient-img-container {
+    padding: 0px 10px 0 0;
+}
+
+.premium-ingredient-img {
+    width: 36px;
+    height: 36px;
+}
+
+.premium-ingredient-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.premium-ingredient-text h1 {
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+.premium-ingredient-text p {
+    margin: 8px 0;
+    width: 70%;
+}
+
+/* Header Center Container */
+.header-center-img-container {
+    margin-top: 100px;
+    position: relative;
+}
+
+/* Header Center Image Container */
+.header-center-divider-img,
+.header-center-top-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.header-center-bottom-img {
+    left: 0;
+}
+
+.header-center-top-img {
+    left: 25%;
+    top: 0%;
+}
+
+.header-center-divider-img {
+    top: 0;
+    z-index: 1;
+}
+
+/* Complete Container of Made Fresh & Vet Developed */
+.made-fresh-and-vet-developed-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Made Fresh Code */
+.made-fresh-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.made-fresh-colorful-background {
+    background-color: #C8F2E7;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.made-fresh-img-container {
+    padding: 0px 10px 0 0;
+}
+
+.made-fresh-img {
+    width: 36px;
+    height: 36px;
+}
+
+.made-fresh-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.made-fresh-text h1 {
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+.made-fresh-text p {
+    margin: 8px 0;
+    width: 59%;
+}
+
+/* Vet Developed Code */
+.vet-developed-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.vet-developed-colorful-background {
+    background-color: #F7CABD;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vet-developed-img-container {
+    padding: 0px 10px 0 0;
+}
+
+.vet-developed-img {
+    width: 36px;
+    height: 36px;
+}
+
+.vet-developed-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.vet-developed-text h1 {
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+.vet-developed-text p {
+    margin: 8px 0;
+    width: 59%;
+}
+
+/* Header Button Code */
+.header-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #EE6F4B;
+    padding: 12px 80px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.button-bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-bottom-section p {
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.paypal-img {
+    width: 39.2px;
+    height: 24px;
+}
+
+.visa-img {
+    width: 39.2px;
+    height: 24px;
+}
+
+.master-card-img {
+    width: 39.2px;
+    height: 24px;
+}
+
+.apple-pay-img {
+    width: 39.2px;
+    height: 24px;
+}
+
+.google-pay-img {
+    width: 39.2px;
+    height: 24px;
+}
+
+.money-guarantee-container {
+    display: flex;
+    align-items: center;
+}
+
+.shield-check-img {
+    width: 16px;
+    height: 16px;
+}
+
+/* Happy Bites Middle Section Code */
+.happy-bites-container {
+    display: flex;
+    margin: 100px auto 100px;
+    display: flex;
+    width: 80%;
+}
+
+.happy-bites-text h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+}
+
+.happy-bites-text .happy-bites-par-description {
+    line-height: 160%;
+    padding-right: 18%;
+}
+
+.key-point-text {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.first-list {
+    display: flex;
+    align-items: center;
+}
+
+.first-list-color-text {
+    color: #EE6F4B;
+    font-weight: 700;
+    font-size: 33px;
+    margin: 20px 0;
+}
+
+.first-list-description {
+    line-height: 160%;
+    padding: 0 80px 0 42px;
+    margin: 0;
+}
+
+.second-list {
+    display: flex;
+    align-items: center;
+}
+
+.second-list-color-text {
+    color: #EE6F4B;
+    font-weight: 700;
+    font-size: 33px;
+    margin: 20px 0;
+}
+
+.second-list-description {
+    line-height: 160%;
+    padding: 0 80px 0 40px;
+    margin: 0;
+}
+
+.third-list {
+    display: flex;
+    align-items: center;
+}
+
+.third-list-color-text {
+    color: #EE6F4B;
+    font-weight: 700;
+    font-size: 33px;
+    margin: 20px 0;
+}
+
+.third-list-description {
+    line-height: 160%;
+    padding: 0 80px 0 40px;
+    margin: 0;
+}
+
+.happy-bites-button-container {
+    margin-top: 30px;
+}
+
+.happy-bites-button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #EE6F4B;
+    padding: 12px 80px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.happy-dog-bites-img {
+    width: 570px;
+    height: 570px;
+}
+
+/* Improve Overall Code */
+.improve-overall-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 8%;
+    margin-bottom: 100px;
+}
+
+.improve-overall-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.improve-overall-text h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.improve-overall-text p {
+    line-height: 160%;
+}
+
+/* Prebiotics Nourish Code */
+.prebiotics-nourish-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 8%;
+}
+
+.prebiotics-nourish-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.prebiotics-nourish-text h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.prebiotics-nourish-text p {
+    line-height: 160%;
 }
 
 @media (max-width: 768px) {
     .what-makes-us-title {
-        font-size: 32px; 
-        width: 80%; 
-        padding-top: 40px; 
+        font-size: 32px;
+        width: 80%;
+        padding-top: 40px;
+    }
+
+    .real-food-container {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin: 50px auto 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .real-food-text p {
+        width: 100%
+    }
+
+    .premium-ingredient-container {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin: 50px auto 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .premium-ingredient-text p {
+        width: 100%;
+    }
+
+
+    .prebiotics-nourish-text h1 {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    .prebiotics-nourish-text p {
+
+        padding-left: 20px;
+    }
+
+    .header-center-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-center-img-container {
+        margin-top: 50px;
+    }
+
+    .made-fresh-container {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin: 50px auto 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .made-fresh-text p {
+        margin: 8px 0;
+        width: 100%;
+    }
+
+    .vet-developed-container {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin: 50px auto 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .vet-developed-text p {
+        margin: 8px 0;
+        width: 100%;
+    }
+
+    .happy-bites-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .happy-bites-text .happy-bites-par-description {
+        padding-right: 0%;
+    }
+
+    .happy-bites-text h1 {
+        font-size: 35px;
+    }
+
+    .happy-bites-button {
+        padding: 12px 30px;
+    }
+
+    .happy-dog-bites-img {
+        display: none;
+    }
+
+    .first-list-description {
+        padding: 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .second-list-description {
+        padding: 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .third-list-description {
+        padding: 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .improve-overall-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .improve-overall-text {
+        padding-left: 20px;
+    }
+
+    .improve-overall-text h1 {
+        font-size: 30px;
+    }
+
+    .doggies-eating-img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .prebiotics-nourish-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dog-food-img {
+        width: 350px;
+        height: 350px;
     }
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
     .what-makes-us-title {
-        font-size: 24px; 
-        width: 90%; 
-        padding-top: 20px; 
+        font-size: 24px;
+        width: 90%;
+        padding-top: 20px;
     }
 }
-
-
