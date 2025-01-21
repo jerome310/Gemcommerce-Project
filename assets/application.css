@@ -1,0 +1,29 @@
+body {
+ font-family: "Inter Tight", serif;
+}
+
+.what-makes-us-title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 60px;
+    width: 35%;
+}
+
+@media (max-width: 768px) {
+    .what-makes-us-title {
+        font-size: 32px; 
+        width: 80%; 
+        padding-top: 40px; 
+    }
+}
+
+@media (max-width: 480px) { 
+    .what-makes-us-title {
+        font-size: 24px; 
+        width: 90%; 
+        padding-top: 20px; 
+    }
+}
+
+
